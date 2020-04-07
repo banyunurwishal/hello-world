@@ -1,4 +1,4 @@
-package org.d3if4075.jurnal10.utils
+package org.d3if4075.jurnal10
 
 import android.view.View
 import android.widget.ProgressBar

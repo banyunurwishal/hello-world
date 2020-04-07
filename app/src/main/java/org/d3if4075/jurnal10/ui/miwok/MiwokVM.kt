@@ -10,7 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import org.d3if4075.jurnal10.database.getInstance
-import org.d3if4075.jurnal10.repository.MiwokRepo
+import org.d3if4075.jurnal10.store.MiwokRepo
 
 @Suppress("SpellCheckingInspection")
 class MiwokVM(application: Application) : ViewModel() {

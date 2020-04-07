@@ -16,7 +16,8 @@ import org.d3if4075.jurnal10.MainActivity
 import org.d3if4075.jurnal10.R
 import org.d3if4075.jurnal10.data.Miwok
 import org.d3if4075.jurnal10.databinding.FragmentMiwokBinding
-import org.d3if4075.jurnal10.utils.RVClickListener
+import org.d3if4075.jurnal10.recylceview.MiwokAdapter
+import org.d3if4075.jurnal10.recylceview.RVClickListener
 
 /**
  * A simple [Fragment] subclass.

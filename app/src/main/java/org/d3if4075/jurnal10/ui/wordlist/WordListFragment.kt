@@ -16,7 +16,8 @@ import org.d3if4075.jurnal10.R
 import org.d3if4075.jurnal10.data.Miwok
 import org.d3if4075.jurnal10.databinding.FragmentWordListBinding
 import org.d3if4075.jurnal10.ui.miwok.MiwokVM
-import org.d3if4075.jurnal10.utils.RVClickListener
+import org.d3if4075.jurnal10.recylceview.RVClickListener
+import org.d3if4075.jurnal10.recylceview.WordListAdapter
 
 /**
  * A simple [Fragment] subclass.
@@ -64,7 +65,8 @@ class WordListFragment : Fragment(),
                 }
 
                 val dataFix = listData.distinct()
-                val adapter = WordListAdapter(dataFix)
+                val adapter =
+                    WordListAdapter(dataFix)
                 val rv = binding.rvWordList
                 rv.adapter = adapter
                 rv.layoutManager = LinearLayoutManager(this.requireContext())

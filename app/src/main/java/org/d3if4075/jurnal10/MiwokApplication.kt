@@ -17,13 +17,7 @@ class MiwokApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         Timber.plant(Timber.DebugTree())
-        delayInit()
-    }
-
-    private fun delayInit() {
-        applicationScope.launch {
-            setupRecurringWork()
-        }
+        delay()
     }
 
     private fun setupRecurringWork() {
@@ -49,5 +43,11 @@ class MiwokApplication : Application() {
             ExistingPeriodicWorkPolicy.KEEP,
             repeatingRequest
         )
+    }
+
+    private fun delay() {
+        applicationScope.launch {
+            setupRecurringWork()
+        }
     }
 }

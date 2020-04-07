@@ -1,4 +1,4 @@
-package org.d3if4075.jurnal10.ui.wordlist
+package org.d3if4075.jurnal10.recylceview
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -10,7 +10,6 @@ import com.bumptech.glide.Glide
 import org.d3if4075.jurnal10.R
 import org.d3if4075.jurnal10.data.Miwok
 import org.d3if4075.jurnal10.databinding.RvWordlistBinding
-import org.d3if4075.jurnal10.utils.RVClickListener
 
 @Suppress("SpellCheckingInspection")
 class WordListAdapter(

@@ -1,4 +1,4 @@
-package org.d3if4075.jurnal10.repository
+package org.d3if4075.jurnal10.store
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations

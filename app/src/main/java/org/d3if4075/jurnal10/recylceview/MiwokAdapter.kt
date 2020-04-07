@@ -1,4 +1,4 @@
-package org.d3if4075.jurnal10.ui.miwok
+package org.d3if4075.jurnal10.recylceview
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 import org.d3if4075.jurnal10.R
 import org.d3if4075.jurnal10.data.Miwok
 import org.d3if4075.jurnal10.databinding.RvMiwokBinding
-import org.d3if4075.jurnal10.utils.RVClickListener
 
 @Suppress("SpellCheckingInspection")
 class MiwokAdapter(
