@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="miwokVm"
+            type="org.d3if4075.jurnal10.ui.miwok.MiwokVM" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.miwok.MiwokFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_miwok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/rv_miwok" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
